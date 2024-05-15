@@ -23,3 +23,10 @@ var createCourse = function () {
     return myCourse;
 };
 console.log(createCourse());
+var myUser = {
+    name: "sameer",
+    _id: [""]
+};
+var myArr = myUser._id;
+myArr.push('smaeer');
+console.log(myArr.length);

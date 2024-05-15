@@ -34,6 +34,18 @@ const createCourse = () =>{
     return myCourse
 }
 console.log(createCourse())
+// 
+type custom = {
+    name : string , 
+    readonly _id  : [string]
+}
+const myUser : custom = {
+    name :"sameer" ,
+    _id :[""]
+}
+let myArr = myUser._id
+myArr.push('smaeer')
+console.log(myArr.length)
 
 export {}
 
